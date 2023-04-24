@@ -18,8 +18,8 @@ app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 
 // Mongo URI
-const mongoURI = 'mongodb+srv://Rajan:Rajan@cluster0.vpllnar.mongodb.net/uploadDB?retryWrites=true&w=majority';
-
+//const mongoURI = 'mongodb+srv://Rajan:Rajan@cluster0.vpllnar.mongodb.net/uploadDB?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://Rajan:Rajan@cluster0.sqgokja.mongodb.net/uploadDB?retryWrites=true&w=majority';
 // Create mongo connection
 const conn = mongoose.createConnection(mongoURI);
 
